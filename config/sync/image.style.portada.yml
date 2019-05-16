@@ -1,0 +1,14 @@
+uuid: 9392c9c4-9fbc-4027-b30c-187b11f34bec
+langcode: en
+status: true
+dependencies: {  }
+name: portada
+label: Portada
+effects:
+  65ae3e8d-8b06-46bc-bd0f-a57b161803c7:
+    uuid: 65ae3e8d-8b06-46bc-bd0f-a57b161803c7
+    id: image_resize
+    weight: 1
+    data:
+      width: 500
+      height: 500

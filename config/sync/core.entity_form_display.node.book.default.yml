@@ -1,0 +1,44 @@
+uuid: c761e4d0-8c67-4abf-9c51-65bd9d0f3868
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.media_entity_browser
+    - field.field.node.book.field_portada
+    - node.type.book
+  module:
+    - entity_browser
+id: node.book.default
+targetEntityType: node
+bundle: book
+mode: default
+content:
+  field_portada:
+    weight: 1
+    settings:
+      entity_browser: media_entity_browser
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_replace: false
+      open: false
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

@@ -1,0 +1,10 @@
+uuid: 79b769b3-f64d-4c37-b3f4-4acf90d49db1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.single_content_book
+label: 'Single Content Book'
+targetEntityType: node
+cache: true

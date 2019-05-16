@@ -1,0 +1,10 @@
+uuid: e4dacd57-b16b-400a-a6a9-8eaf7189062e
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.single
+label: 'Single Book'
+targetEntityType: media
+cache: true

@@ -1,0 +1,29 @@
+uuid: b1b8e38f-8ee9-436c-a4bd-3272b6d43d14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.book.field_portada
+    - node.type.book
+  module:
+    - user
+id: node.book.default
+targetEntityType: node
+bundle: book
+mode: default
+content:
+  field_portada:
+    type: entity_reference_entity_view
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
