@@ -14,6 +14,9 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  default_content: 0
+  default_content_deploy: 0
+  devel: 0
   dropzonejs: 0
   dropzonejs_eb_widget: 0
   dynamic_page_cache: 0
@@ -24,6 +27,7 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  hal: 0
   help: 0
   history: 0
   image: 0
@@ -39,6 +43,7 @@ module:
   quickedit: 0
   rdf: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
